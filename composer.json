@@ -1,0 +1,21 @@
+{
+    "name": "kingfisherdirect/magento2-format-decimal-attributes",
+    "description": "Magento 2 Module to improve displaying of decimal attributes",
+    "type": "magento2-module",
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "KingfisherDirect\\FormatDecimalAttributes\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "Kamil",
+            "email": "kamil@kingfisherdirect.co.uk"
+        }
+    ],
+    "require": {}
+}
