@@ -19,7 +19,7 @@ class DecimalFormatter
     {
         $attribute = $this->eavConfig->getAttribute(Product::ENTITY, $params['attribute']);
 
-        if ($attribute->getBackendType() !== 'decimal') {
+        if (null === $result || $attribute->getBackendType() !== 'decimal') {
             return $result;
         }
 
